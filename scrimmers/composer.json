@@ -1,0 +1,12 @@
+{
+   "name": "scrimmersgg/scrimmersgg",
+   "description": "For those who want to get real about getting good",
+   "require": {
+      "altorouter/altorouter": "^1.2",
+      "catfan/medoo": "^1.6",
+      "sendgrid/sendgrid": "~7"
+   },
+   "require-dev": {
+   	"heroku/heroku-buildpack-php":"dev-master"
+   }
+}

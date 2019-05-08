@@ -1,0 +1,33 @@
+.schedule-rows td {
+    width: 80px;
+    height: 30px;
+    margin: 3px;
+    padding: 5px;  
+    cursor: pointer;
+}
+
+.schedule-rows td:nth-child(odd) {
+    background-color:  #29333d;
+    position: relative;
+}
+
+.schedule-rows td:nth-child(even) {
+    background-color:  #33404d;
+    position: relative;
+}
+
+.schedule-rows td:first-child {
+    background-color: transparent;
+    text-align: right;
+    position: relative;
+}
+
+#scheduleBtn {
+    font-size: 24px;
+}
+
+.schedule-rows td[data-selected],
+.schedule-rows td[data-selecting]:nth-child(even) { background-color: #5c738a; }
+.schedule-rows td[data-selecting]:nth-child(odd) { background-color: #47596b; }
+.schedule-rows td[data-selected]:nth-child(odd) {background-color: #47596b; }
+.schedule-rows td[data-disabled] { opacity: 0.70; }
